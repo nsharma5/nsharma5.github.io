@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/438be4d332.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <nav class="nav-menu" aria-labelledby="page-menu">
+      <ul role="menubar" id="page-nav-menu">
+        <li class="active" role="menuitem">
+          <a id="home" href="#" aria-label="Go to Homepage" aria-current="page">Home</a>
+        </li>
+        <li role="menuitem"><a id="projects" href="projects.html" aria-label="Go to Projects">Projects</a></li>
+        <li role="menuitem"><a id="resume" href="resume.html" aria-label="See My Resume">Resume</a></li>
+        <li role="menuitem">
+          <a id="contact" href="contact.html" aria-label="See My Contact Information">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+    <img src="./images/Devil Lakes View.jpg" class="home-page-vista" alt="Photo of Lake from Devil Lakes" />
+    <section class="home-page-intro-container page-container">
+      <img src="./images/Intro.jpg" class="home-page-intro-photo" alt="Photo of Me" />
+      <div class="home-page-intro">
+        <h1>Hi!</h1>
+        <p>
+          I am Neha Sharma. A MCS grad student at Northwestern University focusing on HCI specialization and pivoting to
+          become a Product Manager. A designer/engineer hybrid by trade, I want to help merge the best business, design
+          and engineering practices in every step of product development.
+        </p>
+        <p>
+          I usually design myself and code my designs in JavaScript with UI Libraries like React.js and Material UI.
+          This website is made in vanilla HTML5, CSS3 and JavaScript.
+        </p>
+      </div>
+    </section>
+    <div class="home-page-about-background">
+      <section class="home-page-about-container page-container">
+        <h1>About Me</h1>
+        <p>
+          I graduated from University of Illinois at Urbana-Champaign with my Bachelors in Computer Science in 2017. I
+          had an Informatics Minor with this degree and it was this minor that opened my eyes to HCI area. Even in my
+          undergraduate studies, I aligned my courses to a Human and Social Impact track to set myself up for the HCI
+          specialization.
+        </p>
+        <p>
+          After undergrad, I worked as a Web Developer and then a Frontend Software Engineer at Illinois Rocstar in
+          Champaign from October 2017 to July 2019. Then, I moved to Naperville, IL to work as a Software Developer at
+          Egen Solutions from July 2019 to June 2020.
+        </p>
+        <p>
+          I am currently pursuing my Masters in Computer Science with an Engineering Management minor at Northwestern
+          University and actively looking for internships in Product roles.
+        </p>
+      </section>
+    </div>
+    <section class="home-page-projects-container page-container">
+      <h1>My Projects</h1>
+      <p>Here are a couple of my publicly accessible projects:</p>
+      <div class="home-page-projects">
+        <a class="home-page-project" href="projects.html#mehu" aria-labelledby="Mehu Project">
+          <img src="./images/Mehu.png" class="home-page-project-image" alt="Mehu Logo" />
+          <h2 id="Mehu Project">Mehu</h2>
+        </a>
+        <a class="home-page-project" href="projects.html#pustack" aria-labelledby="PuStack Project">
+          <img src="./images/pu_stack.png" class="home-page-project-image" alt="PuStack Logo" />
+          <h2 id="PuStack Project">PuStack</h2>
+        </a>
+        <a class="home-page-project" href="projects.html#microsoft" aria-labelledby="Microsoft Project">
+          <img src="./images/Microsoft.png" class="home-page-project-image" alt="Microsoft Logo" />
+          <h2 id="Microsoft Project">Microsoft GDS</h2>
+        </a>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <h5>Designed &amp; Implemented by Neha Sharma &copy;</h5>
+  </footer>
+</html>
